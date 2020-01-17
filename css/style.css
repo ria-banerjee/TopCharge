@@ -63,7 +63,7 @@ body {
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color:#00CCFF;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -81,15 +81,19 @@ h3{
 }
 h6{
 	font-size:16px;
-	color:#888888;
+	color:#495867;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
 	margin:0 0 60px 0;
+	line-height:25px;
+
 }
 p{
 	line-height:24px;
 	margin:0;
+	color:#495867;
+
 }
 
 /* Header Styles
@@ -205,7 +209,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #00CCFF;
 }
 
 .small-logo{ 
@@ -499,6 +503,7 @@ border: 2px solid #fff;
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
+	margin-bottom: 3.82979%;
 	height: 490px;
 	overflow: hidden;
 	text-align: center;
@@ -575,16 +580,10 @@ border: 2px solid #fff;
 .team-leader ul li a:hover, .team-leader ul li a:focus{
 	text-decoration:none;
 }
-.team-leader ul li a.fa-twitter:hover{
+.team-leader ul li a.fa-linkedin-square:hover{
 	color:#55acee;
 }
-.team-leader ul li a.fa-facebook:hover{
-	color:#3b5998;
-}
-.team-leader ul li a.fa-pinterest:hover{
-	color:#cb2026;
-}
-.team-leader ul li a.fa-google-plus:hover{
+.team-leader ul li a.fa-mail-forward:hover{
 	color:#dd4b39;
 }
 
