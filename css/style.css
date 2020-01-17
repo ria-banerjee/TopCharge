@@ -212,6 +212,11 @@ color: #fff;
 	color: #00CCFF;
 }
 
+.main-nav li a:active{ 
+	text-decoration:none;
+	color: #00CCFF;
+}
+
 .small-logo{ 
 	padding:0 32px;
 }
