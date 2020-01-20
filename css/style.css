@@ -351,7 +351,7 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .Portfolio-nav li a:hover{
-	background:#7cc576;
+	background:#00CCFF;
 	color:#fff;
 	text-decoration:none;
 }
@@ -382,7 +382,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#00CCFF;
 	color:#fff;
 	text-decoration:none;
 }
@@ -616,11 +616,11 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:90px 300px 100px;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../img/bg-map.png) center  no-repeat;
 }
 .contact-info-box{
 	font-size:15px;
@@ -630,8 +630,8 @@ border: 2px solid #fff;
 .contact-info-box h3{
 	font-size: 15px;
 	font-weight:400;
+	width:102;
 	float:left;
-	width:102px;
 	margin-right:12px;
 	line-height:28px;
 }
