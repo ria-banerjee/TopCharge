@@ -34,7 +34,13 @@
 
 img{ max-width:100%;}
 
+
+a.in_text {color:#00CCFF;}
+a.in_text:visited {color:#00CCFF;}
+a.in_text:hover {color:#002EFF; text-decoration: none;}
+
 a, a:hover, a:active{ outline:0px !important}
+
 
 @font-face {
   font-family: 'FontAwesome';
@@ -95,8 +101,9 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:220px 0;
+	padding:250px 0;
 }
+
 .logo{
 	margin:0 auto 15px;
 }
@@ -120,7 +127,6 @@ p{
 	font-family: 'Montserrat',sans-serif;
 	font-size:25px;
 	color: #808080;
-	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
@@ -243,6 +249,10 @@ color: #fff;
 }
 .main-section.alabaster{
 	background:#fafafa;
+}
+
+.qi_tech_pic{
+	border-radius: 15px 50px;
 }
 
 /* Featured Work
@@ -465,7 +475,7 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#7cc576;
+	background:#00CCFF;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
