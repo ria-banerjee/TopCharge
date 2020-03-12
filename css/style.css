@@ -277,6 +277,11 @@ color: #fff;
 .featured-work p.padding-b{
 	padding-bottom:35px;
 }
+
+.featured-work h4.padding-b{
+	padding-bottom:35px;
+}
+
 .featured-box-col1{
 	width:60px;
 	float:left;
